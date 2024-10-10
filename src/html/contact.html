@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- [Start]: About & Author  -->
+		<meta name="author" content="Mihir Raj Singh | @iammihirsig" />
+		<meta
+			name="about"
+			content="This is the base html project taught by freecodecamp to help me learn html. I'm really gratefull."
+		/>
+		<!-- [End]: About & Author  -->
+
+		<!-- [Start]: OG  -->
+		<meta
+			property="og:title"
+			content="Little Taco Shop Project | @iammihirsig"
+		/>
+		<meta
+			property="og:description"
+			content="I am building this project as I am learning html."
+		/>
+		<meta property="og:image" content="/res/img/tacos_close_up_400x260.png" />
+		<meta property="og:image:height" content="260" />
+		<meta property="og:image:width" content="400" />
+		<meta property="og:url" content="https://www.littletacoshop.com" />
+		<!-- [End]: OG  -->
+
+		<!-- [Start]: Title, Icons, Links -->
+		<title>Contact Us - Little Taco Shop</title>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon-32x32.png"
+			type="image/png"
+			sizes="32x32"
+		/>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon-16x16.png"
+			type="image/png"
+			sizes="16x16"
+		/>
+		<link rel="stylesheet" href="/src/css/style.css" />
+		<!-- [End]: Title, Icons, Links -->
+	</head>
+	<body>
+		<header>
+			<h1>Contact Us</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="/src/html/index.html">Home</a>
+					</li>
+					<li>
+						<a href="#aboutLts">About LTS</a>
+					</li>
+					<li>
+						<a href="#ourMenu">Our Menu</a>
+					</li>
+					<li>
+						<a href="/src/html/hours.html">Store Hours</a>
+					</li>
+				</ul>
+			</nav>
+			<figure>
+				<img
+					src="/res/img/tacos_close_up_400x260.png"
+					alt="Close lookup to one of the best taco in shop."
+					title="Buy Me!!"
+				/>
+				<figcaption>Little Taco Shop Tacos</figcaption>
+			</figure>
+			<hr />
+		</header>
+		<main>
+			<h2>Our Contact Form</h2>
+			<form action="" method="post">
+				<fieldset>
+					<legend>Send Us A Message</legend>
+					<br />
+					<label for="name">Name: </label>
+					<input
+						type="text"
+						placeholder="Your Name"
+						required
+						autocomplete="name"
+					/>
+					<br />
+					<br />
+					<label for="email">Email: </label>
+					<input
+						type="email"
+						placeholder="Your Email"
+						required
+						autocomplete="email"
+					/>
+					<br />
+					<br />
+					<label for="message">Your Message: </label>
+					<br />
+					<textarea
+						name="Message"
+						id="Message"
+						cols="30"
+						rows="10"
+						placeholder="Your Message Goes Here . . . "
+					>
+					</textarea>
+					<br />
+					<br />
+				</fieldset>
+				<button type="submit">Send</button>
+				<button type="reset">Reset</button>
+			</form>
+
+			<h2>Our Location</h2>
+			<address>
+				555 Taco Temptation Lane, Suite T
+				<br />
+				Kansas City, MO 55555-5555
+				<br />
+				<br />
+				Phone: <a href="tel:+1">555-555-5555</a>
+			</address>
+			<p><a href="#">Back To Top</a></p>
+			<hr />
+		</main>
+		<footer>
+			<p>Copyright &copy; The Little Taco Shop</p>
+		</footer>
+	</body>
+</html>

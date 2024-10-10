@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- [Start]: About & Author  -->
+		<meta name="author" content="Mihir Raj Singh | @iammihirsig" />
+		<meta
+			name="about"
+			content="This is the base html project taught by freecodecamp to help me learn html. I'm really gratefull."
+		/>
+		<!-- [End]: About & Author  -->
+
+		<!-- [Start]: OG  -->
+		<meta
+			property="og:title"
+			content="Little Taco Shop Project | @iammihirsig"
+		/>
+		<meta
+			property="og:description"
+			content="I am building this project as I am learning html."
+		/>
+		<meta property="og:image" content="/res/img/tacos_close_up_400x260.png" />
+		<meta property="og:image:height" content="260" />
+		<meta property="og:image:width" content="400" />
+		<meta property="og:url" content="https://www.littletacoshop.com" />
+		<!-- [End]: OG  -->
+
+		<!-- [Start]: Title, Icons, Links -->
+		<title>Little Taco Shop</title>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon-32x32.png"
+			type="image/png"
+			sizes="32x32"
+		/>
+		<link
+			rel="shortcut icon"
+			href="/res/img/favicons/favicon-16x16.png"
+			type="image/png"
+			sizes="16x16"
+		/>
+		<link rel="stylesheet" href="/src/css/style.css" />
+		<!-- [End]: Title, Icons, Links -->
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to The Little Taco Shop</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="#aboutLts">About LTS</a>
+					</li>
+					<li>
+						<a href="#ourMenu">Our Menu</a>
+					</li>
+					<li>
+						<a href="/src/html/hours.html">Store Hours</a>
+					</li>
+					<li>
+						<a href="/src/html/contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+			<figure>
+				<img
+					src="/res/img/tacos_and_drink_400x267.png"
+					alt="Taco and drink on a brown table with lots of snacks on 3 little white bowl with a tissue."
+					title="Someone wants to eat tacos."
+				/>
+				<figcaption>Tacos and a Drink</figcaption>
+			</figure>
+			<hr />
+		</header>
+		<main>
+			<section id="aboutLts">
+				<h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+				<p>
+					<abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our
+					shop was built from a <strong>love of tacos 🌮🌮🌮</strong>. We hope
+					our shop adds a unique and interesting place to our little town.
+				</p>
+				<h3>Taco Trivia</h3>
+				<details>
+					<summary>When did tacos first appear in the United States?</summary>
+					<p
+						title="Cited from &OpenCurlyDoubleQuote;Smithsonian Magazine&CloseCurlyDoubleQuote;"
+					>
+						Jeffrey M. Pilcher, taco historian and professor of history at the
+						University of Minnesota, says the earliest mention of tacos in the
+						United States are in a newspaper from
+						<time datetime="1905">1905.</time>
+					</p>
+					<p>
+						(Source:
+						<cite title="Click to go to source">
+							<a
+								href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+								target="_blank"
+								>Smithsonian Magazine</a
+							>
+						</cite>
+						)
+					</p>
+				</details>
+			</section>
+			<hr />
+			<section id="ourMenu">
+				<h2>Our Menu</h2>
+				<table>
+					<caption>
+						Our Tacos
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Tacos</th>
+							<th scope="col"><abbr title="Quantity">Qty</abbr></th>
+							<th scope="col">Price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row" rowspan="3">Crunchy</th>
+							<td>1</td>
+							<td>$1.50</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>$2.50</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>$3.25</td>
+						</tr>
+						<tr>
+							<th scope="row" rowspan="3">Soft</th>
+							<td>1</td>
+							<td>$2.00</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>$3.50</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>$4.50</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">Chips & Salsa $2.00</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+
+			<br />
+
+			<p><a href="#">Back To Top</a></p>
+			<hr />
+		</main>
+		<footer>
+			<p>Copyright &copy; The Little Taco Shop</p>
+		</footer>
+	</body>
+</html>
